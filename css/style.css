@@ -1,0 +1,118 @@
+/*Colores elegidos
+-#EEEBDD->Blanco
+-#CE1212->Rojo claro
+-#810000->Rojo oscuro
+-#1B1717->Negro
+*/
+
+/* Formateo de estilos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #1B1717;
+    transition: all ease 0.5s;
+}
+a:hover{
+    color:  #ce0000;
+    transition: all ease 0.6s;
+}
+
+ul{
+    list-style: none;
+}
+
+/*Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: rgba(255, 255, 255, 0.637);
+    font-weight: bold;
+    height: 130px;
+}
+header > nav{
+    width: 100%;
+
+}
+header > nav > ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+}
+header > nav > ul > li{
+    margin-left: 30px;
+}
+
+
+/*Elementos de index*/
+#carousel{
+    opacity: 90%;
+    width: 95%;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:3%;
+    background-color: rgba(255, 0, 0, 0.288);
+    border-radius: 2px;
+}
+
+.imagen-texto{
+    margin: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 4%;
+}
+
+.imagen-texto > div{
+    width: 49%;
+}
+.imghome{
+    height: 500px;
+    width: 49%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+/*Footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 60px;
+    background-color: white;
+    font-weight: bold;
+    height: 170px;
+}
+
+footer > nav{
+    width: 100%;
+
+}
+footer > nav > ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+}
+footer > nav > ul > li{
+    margin-left: 30px;
+}
+footer > nav > ul > li > a{
+    text-decoration: underline;
+}
